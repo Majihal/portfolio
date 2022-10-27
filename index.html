@@ -1,45 +1,101 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
 
     <style>
-        body{
-            font-family: 'Roboto', sans-serif;
+      body {
+        font-family: 'Roboto', sans-serif;
+      }
 
+      .shadow-emi {
+        box-shadow: rgba(0, 0, 0, 0.17) 0px 5px 15px;
+      }
+    </style>
 
-        }
-        
-        .shadow-emi  {
-          box-shadow: rgba(0, 0, 0, 0.17) 0px 5px 15px;
-        }
-      
-      </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
-</head>
-
-
-<body>
+  <body>
     <main class="min-h-screen grid place-content-center bg-[#ECECEC]">
-        <div class="mx-auto shadow-emi rounded-[12px]">
-            <div class="bg-[#EEAD6D] text-center  text-white font-bold font w-[1004px] mx-auto py-6 rounded-t-lg"><h1 class="text-3xl">Franco Alejo Gregoratti </h1><h2 class=" text-2xl font-light">Frontend developer</h2></div>
-            <div class="bg-white rounded-lg py-8 ">
-                <div class="rounded-[10px] w-[494px] mx-auto text-center text-xl font-light text-[#707070] grid gap-3">
-                    <div class="flex gap-3 mx-auto"><a href="https://github.com/Majihal/cabify" class="shadow-emi rounded-[10px]  my-3 p-3 w-64 hover:bg-[#D7CCF2] cursor-pointer transition-colors duration-200">Cabify Repo</a><a href="https://cabify-three.vercel.app" class="shadow-emi rounded-[10px]  my-3 p-3 w-64 hover:bg-[#FFDDBB] cursor-pointer transition-colors duration-200">Cabify Demo</a></div>
-                    <div class="flex gap-3 mx-auto"><a href="https://github.com/Majihal/disney" class="shadow-emi rounded-[10px]  my-3 p-3 w-64 hover:bg-[#D7CCF2] cursor-pointer transition-colors duration-200">Disney Repo</a><a href="https://disney-delta.vercel.app" class="shadow-emi rounded-[10px]  my-3 p-3 w-64 hover:bg-[#FFDDBB] cursor-pointer transition-colors duration-200">Disney Demo</a></div>
-                    <div class="flex gap-3 mx-auto"><a href="https://github.com/Majihal/log-in-practica" class="shadow-emi rounded-[10px]  w-64 my-3 p-3 hover:bg-[#D7CCF2] cursor-pointer transition-colors duration-200">Log in Repo</a><a href="https://log-in-practica.vercel.app" class="shadow-emi rounded-[10px] w-64 my-3 p-3 hover:bg-[#FFDDBB] cursor-pointer transition-colors duration-200">Log in Demo</a></div>
-                    <div class="flex gap-3 mx-auto"><a href="https://github.com/Majihal/Gaona" class="shadow-emi rounded-[10px]  my-3 p-3 w-64 hover:bg-[#D7CCF2] cursor-pointer transition-colors duration-200">Gaona Repo</a><a href="https://gaona.vercel.app" class="shadow-emi rounded-[10px]  my-3 p-3 w-64 hover:bg-[#FFDDBB] cursor-pointer transition-colors duration-200">Gaona Demo</a></div>
-                    <div class="flex gap-3 mx-auto"><a href="https://github.com/Majihal/lab-marketing" class="shadow-emi rounded-[10px]  w-64 my-3 p-3 hover:bg-[#D7CCF2] cursor-pointer transition-colors duration-200">Lab Marketing Repo</a><a href="https://lab-marketing.vercel.app" class="shadow-emi rounded-[10px]  my-3 p-3 w-64 hover:bg-[#FFDDBB] cursor-pointer transition-colors duration-200">Lab Marketing Demo</a></div>
-                </div>
-            </div>
+      <div class="shadow-emi rounded-[12px]">
+        <div
+          class="bg-[#EEAD6D] text-center text-white font-bold p-4 w-full font lg:w-[1004px] py-6 rounded-t-lg"
+        >
+          <h1 class="text-3xl">Franco Alejo Gregoratti</h1>
+          <h2 class="text-2xl font-light">Frontend developer</h2>
         </div>
+        <div class="bg-white rounded-lg py-8">
+          <div
+            class="rounded-[10px] w-full mx-auto text-center text-xl font-light text-[#707070] grid gap-3"
+          >
+            <div class="flex gap-3 mx-auto">
+              <a
+                href="https://github.com/Majihal/cabify"
+                class="shadow-emi rounded-[10px] my-3 p-3 lg:w-64 hover:bg-[#D7CCF2] cursor-pointer transition-colors duration-200"
+                >Cabify Repo</a
+              ><a
+                href="https://cabify-three.vercel.app"
+                class="shadow-emi rounded-[10px] my-3 p-3 lg:w-64 hover:bg-[#FFDDBB] cursor-pointer transition-colors duration-200"
+                >Cabify Demo</a
+              >
+            </div>
+            <div class="flex gap-3 mx-auto">
+              <a
+                href="https://github.com/Majihal/disney"
+                class="shadow-emi rounded-[10px] my-3 p-3 lg:w-64 hover:bg-[#D7CCF2] cursor-pointer transition-colors duration-200"
+                >Disney Repo</a
+              ><a
+                href="https://disney-delta.vercel.app"
+                class="shadow-emi rounded-[10px] my-3 p-3 lg:w-64 hover:bg-[#FFDDBB] cursor-pointer transition-colors duration-200"
+                >Disney Demo</a
+              >
+            </div>
+            <div class="flex gap-3 mx-auto">
+              <a
+                href="https://github.com/Majihal/log-in-practica"
+                class="shadow-emi rounded-[10px] lg:w-64 my-3 p-3 hover:bg-[#D7CCF2] cursor-pointer transition-colors duration-200"
+                >Log in Repo</a
+              ><a
+                href="https://log-in-practica.vercel.app"
+                class="shadow-emi rounded-[10px] lg:w-64 my-3 p-3 hover:bg-[#FFDDBB] cursor-pointer transition-colors duration-200"
+                >Log in Demo</a
+              >
+            </div>
+            <div class="flex gap-3 mx-auto">
+              <a
+                href="https://github.com/Majihal/Gaona"
+                class="shadow-emi rounded-[10px] my-3 p-3 lg:w-64 hover:bg-[#D7CCF2] cursor-pointer transition-colors duration-200"
+                >Gaona Repo</a
+              ><a
+                href="https://gaona.vercel.app"
+                class="shadow-emi rounded-[10px] my-3 p-3 lg:w-64 hover:bg-[#FFDDBB] cursor-pointer transition-colors duration-200"
+                >Gaona Demo</a
+              >
+            </div>
+            <div class="flex gap-3 mx-auto">
+              <a
+                href="https://github.com/Majihal/lab-marketing"
+                class="shadow-emi rounded-[10px] w-[127px] lg:w-64 my-3 p-3 hover:bg-[#D7CCF2] cursor-pointer transition-colors duration-200"
+                >Lab Repo</a
+              ><a
+                href="https://lab-marketing.vercel.app"
+                class="shadow-emi rounded-[10px] my-3 w-[127px] p-3 lg:w-64 hover:bg-[#FFDDBB] cursor-pointer transition-colors duration-200"
+                >Lab Demo</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
-</body>
+  </body>
 </html>
